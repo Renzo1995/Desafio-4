@@ -1,0 +1,38 @@
+
+body
+{
+ background-color: green; 
+}
+
+section
+{
+  display:flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  border: 5px solid red;
+}
+
+.contenedor-1
+{
+  align-self: flex-end;
+  border: 1px solid red;
+}
+
+.contenedor-2
+{
+  align-self: auto;
+  border: 1px solid red;
+}
+
+.contenedor-3
+{
+  align-self: flex-start;
+  border: 1px solid red;
+}
+
+.contenedor-4
+{
+  align-self: auto;
+  border: 1px solid red;
+}
